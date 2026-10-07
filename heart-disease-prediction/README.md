@@ -147,7 +147,8 @@ This is a first-version project, and I know where it can grow:
 heart-disease-prediction/
 ├── README.md                  # you are here
 ├── main.ipynb                 # full notebook: EDA → model → prediction
-└── heart_disease_data.csv     # dataset (303 rows × 14 columns)
+├── heart_disease_data.csv     # dataset (303 rows × 14 columns)
+└── requirements.txt           # Python dependencies
 ```
 
 ## ▶️ Run It Yourself
@@ -158,7 +159,7 @@ git clone https://github.com/aditya-datahub/healthcare-ml-predictions.git
 cd healthcare-ml-predictions/heart-disease-prediction
 
 # 2. Install dependencies
-pip install numpy pandas scikit-learn jupyter
+pip install -r requirements.txt
 
 # 3. Open the notebook
 jupyter notebook main.ipynb
